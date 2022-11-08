@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Prompt', sans-serif;
+}
+body {
+    background-color: black;
+}
+.navbar {
+    display: flex;
+    padding: 10px 20px;
+    background-color: rgba(88, 88, 88, 0.8);
+}
+.grid-content {
+    display: grid;
+    background-color: rgb(26, 26, 26);
+    grid-template-columns: 186px 186px 186px 186px;
+    border-radius: 8px;
+    gap: 20px 20px;
+    padding: 15px;
+    position: relative;
+    justify-content: center;
+    margin: 10px;
+}
+.type-nav {
+    display: inline-block;
+    background-color: rgb(26, 26, 26);
+    width: 150px;
+    margin: 10px;
+    font-size: 35px;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 8px;
+    color: azure;
+}
+.button-text {
+    font-size: 40px;
+    color: azure;
+    padding: 0px 25px;
+}
+a:hover { color: blue;}
+.anime_name {
+    overflow: hidden;
+    color: aliceblue;
+    font-size: 25px;
+    max-height: 110px;
+    max-width: 186px;
+    text-align: center;
+}
+
