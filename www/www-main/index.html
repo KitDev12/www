@@ -2,14 +2,26 @@
     <head>
         <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
         <link rel="stylesheet" href="style.css">
     </head>
-    <header class="navbar">
-        <i onclick="showmenu()" class="material-icons icon-menu" id="menu">&#xe5d2;</i>
+
+<body>
+    <div class="menu" id="menu">
         <ul>
-            <li><div class="logo">A</div>nime Krolony</li><p></p>
+            <li class="logo-menu"><div class="logo">A</div>nime Krolony</li><p></p>
+            <a href="#anime"><li class="menu-bar">อนิเมะ<hr></li></a>
+            <a href="#manga"><li class="menu-bar">มังงะ<hr></li></a>
+            <a href="#manhava"><li class="menu-bar">มังฮวา<hr></li></a>
+        </ul>
+    </div>
+    <header class="navbar">
+        <a id="btn-menu"><i  class="material-icons icon-menu" >&#xe5d2;</i></a>
+        <ul class="navbar-div">
+            <li class="name-bar"><div class="logo">A</div>nime Krolony</li><p></p>
         </ul>
     </header>
+    
     <div class="type-nav">อนิเมะ</div>
     <div class="type-nav">อนิเมะ</div>
     <maim class="grid-anime" id="anime">
@@ -87,6 +99,7 @@
             <p class="anime_name">Mobile Suit Gundam The Witch from Mercury ซับไทย ยังไม่จบ</p>
             </a>
         </div>
+        
     </maim>
     <div class="type-nav" id="manga">มังงะ</div>
     <div class="grid-anime">
@@ -115,7 +128,7 @@
             </a>
         </div>
     </div>
-     <div class="type-nav" id="manga">มังฮวา</div>
+     <div class="type-nav" id="manhava">มังฮวา</div>
     <div class="grid-anime">
         <div>
             <a href="../Bocchi/SHADOW.html">
@@ -142,9 +155,11 @@
             </a>
         </div>
     </div>
+    
     <div class="type-nav" id="manga">Doujin</div>
     <footer class="footer-main">
         
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js"></script> 
+</body>
 </html>
